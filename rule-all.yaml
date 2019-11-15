@@ -1,0 +1,207 @@
+apiVersion: config.istio.io/v1alpha2
+kind: rule
+metadata:
+  name: checkip
+spec:
+  match: source.labels["istio"] == "ingressgateway"
+  actions:
+  - handler: handler-1
+    instances: [ sourceip ]
+  - handler: handler-2
+    instances: [ sourceip ]
+  - handler: handler-3
+    instances: [ sourceip ]
+  - handler: handler-4
+    instances: [ sourceip ]
+  - handler: handler-5
+    instances: [ sourceip ]
+  - handler: handler-6
+    instances: [ sourceip ]
+  - handler: handler-7
+    instances: [ sourceip ]
+  - handler: handler-8
+    instances: [ sourceip ]
+  - handler: handler-9
+    instances: [ sourceip ]
+  - handler: handler-10
+    instances: [ sourceip ]
+  - handler: handler-11
+    instances: [ sourceip ]
+  - handler: handler-12
+    instances: [ sourceip ]
+  - handler: handler-13
+    instances: [ sourceip ]
+  - handler: handler-14
+    instances: [ sourceip ]
+  - handler: handler-15
+    instances: [ sourceip ]
+  - handler: handler-16
+    instances: [ sourceip ]
+  - handler: handler-17
+    instances: [ sourceip ]
+  - handler: handler-18
+    instances: [ sourceip ]
+  - handler: handler-19
+    instances: [ sourceip ]
+  - handler: handler-20
+    instances: [ sourceip ]
+  - handler: handler-21
+    instances: [ sourceip ]
+  - handler: handler-22
+    instances: [ sourceip ]
+  - handler: handler-23
+    instances: [ sourceip ]
+  - handler: handler-24
+    instances: [ sourceip ]
+  - handler: handler-25
+    instances: [ sourceip ]
+  - handler: handler-26
+    instances: [ sourceip ]
+  - handler: handler-27
+    instances: [ sourceip ]
+  - handler: handler-28
+    instances: [ sourceip ]
+  - handler: handler-29
+    instances: [ sourceip ]
+  - handler: handler-30
+    instances: [ sourceip ]
+  - handler: handler-31
+    instances: [ sourceip ]
+  - handler: handler-32
+    instances: [ sourceip ]
+  - handler: handler-33
+    instances: [ sourceip ]
+  - handler: handler-34
+    instances: [ sourceip ]
+  - handler: handler-35
+    instances: [ sourceip ]
+  - handler: handler-36
+    instances: [ sourceip ]
+  - handler: handler-37
+    instances: [ sourceip ]
+  - handler: handler-38
+    instances: [ sourceip ]
+  - handler: handler-39
+    instances: [ sourceip ]
+  - handler: handler-40
+    instances: [ sourceip ]
+  - handler: handler-41
+    instances: [ sourceip ]
+  - handler: handler-42
+    instances: [ sourceip ]
+  - handler: handler-43
+    instances: [ sourceip ]
+  - handler: handler-44
+    instances: [ sourceip ]
+  - handler: handler-45
+    instances: [ sourceip ]
+  - handler: handler-46
+    instances: [ sourceip ]
+  - handler: handler-47
+    instances: [ sourceip ]
+  - handler: handler-48
+    instances: [ sourceip ]
+  - handler: handler-49
+    instances: [ sourceip ]
+  - handler: handler-50
+    instances: [ sourceip ]
+  - handler: handler-51
+    instances: [ sourceip ]
+  - handler: handler-52
+    instances: [ sourceip ]
+  - handler: handler-53
+    instances: [ sourceip ]
+  - handler: handler-54
+    instances: [ sourceip ]
+  - handler: handler-55
+    instances: [ sourceip ]
+  - handler: handler-56
+    instances: [ sourceip ]
+  - handler: handler-57
+    instances: [ sourceip ]
+  - handler: handler-58
+    instances: [ sourceip ]
+  - handler: handler-59
+    instances: [ sourceip ]
+  - handler: handler-60
+    instances: [ sourceip ]
+  - handler: handler-61
+    instances: [ sourceip ]
+  - handler: handler-62
+    instances: [ sourceip ]
+  - handler: handler-63
+    instances: [ sourceip ]
+  - handler: handler-64
+    instances: [ sourceip ]
+  - handler: handler-65
+    instances: [ sourceip ]
+  - handler: handler-66
+    instances: [ sourceip ]
+  - handler: handler-67
+    instances: [ sourceip ]
+  - handler: handler-68
+    instances: [ sourceip ]
+  - handler: handler-69
+    instances: [ sourceip ]
+  - handler: handler-70
+    instances: [ sourceip ]
+  - handler: handler-71
+    instances: [ sourceip ]
+  - handler: handler-72
+    instances: [ sourceip ]
+  - handler: handler-73
+    instances: [ sourceip ]
+  - handler: handler-74
+    instances: [ sourceip ]
+  - handler: handler-75
+    instances: [ sourceip ]
+  - handler: handler-76
+    instances: [ sourceip ]
+  - handler: handler-77
+    instances: [ sourceip ]
+  - handler: handler-78
+    instances: [ sourceip ]
+  - handler: handler-79
+    instances: [ sourceip ]
+  - handler: handler-80
+    instances: [ sourceip ]
+  - handler: handler-81
+    instances: [ sourceip ]
+  - handler: handler-82
+    instances: [ sourceip ]
+  - handler: handler-83
+    instances: [ sourceip ]
+  - handler: handler-84
+    instances: [ sourceip ]
+  - handler: handler-85
+    instances: [ sourceip ]
+  - handler: handler-86
+    instances: [ sourceip ]
+  - handler: handler-87
+    instances: [ sourceip ]
+  - handler: handler-88
+    instances: [ sourceip ]
+  - handler: handler-89
+    instances: [ sourceip ]
+  - handler: handler-90
+    instances: [ sourceip ]
+  - handler: handler-91
+    instances: [ sourceip ]
+  - handler: handler-92
+    instances: [ sourceip ]
+  - handler: handler-93
+    instances: [ sourceip ]
+  - handler: handler-94
+    instances: [ sourceip ]
+  - handler: handler-95
+    instances: [ sourceip ]
+  - handler: handler-96
+    instances: [ sourceip ]
+  - handler: handler-97
+    instances: [ sourceip ]
+  - handler: handler-98
+    instances: [ sourceip ]
+  - handler: handler-99
+    instances: [ sourceip ]
+  - handler: handler-100
+    instances: [ sourceip ]
